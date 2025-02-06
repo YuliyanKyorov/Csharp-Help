@@ -1,0 +1,132 @@
+namespace _08.CondenseArrayToNumber
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] numbers= { 10, 20, 30, 40, 50 };//масив с чиала индекс 0 - 10, индекс 1 - 20 и т.н.
+            foreach (int index in numbers)//обхожда всеки елемент от масива numbers
+             // int index in numbers - взима стойностите на елементите от масива numbers
+             // и ги присвоява на променливата index
+            {
+                Console.WriteLine(index); //принтира стойностите на елементите от масива numbers
+            }
+        }//Резултатът е : 10, 20, 30, 40, 50
+
+    }
+=======================================================================================================
+using System;
+
+class Program
+{
+    static void Main()//Main метод: Инициализира масив с числа и извиква метода PrintNumbers.
+    {
+        int[] numbers = { 1, 2, 3, 4, 5 };
+        PrintNumbers(numbers);
+    }
+
+    static void PrintNumbers(int[] numbers)//PrintNumbers метод: Приема масив от числа като 
+                                           //аргумент и използва цикъл foreach, за да обхожда 
+                                           //всеки елемент от масива и да го отпечатва.
+    {
+        foreach (int number in numbers)
+        {
+            Console.WriteLine(number);
+        }
+    }//начин за използване на foreach цикъл в метод за обхождане и отпечатване на елементи от масив.
+}//Резултатът е : 1
+                  2 
+                  3
+                  4
+                  5
+===============================================================================================================
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()//Main метод: Инициализира списък с числа и извиква метода PrintNumbers.
+    {
+        List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+        PrintNumbers(numbers);
+    }
+
+    static void PrintNumbers(List<int> numbers)//PrintNumbers метод: Приема списък от числа като 
+                                               //аргумент и използва цикъл foreach, за да обхожда 
+                                               //всеки елемент от списъка и да го отпечатва.
+    {
+        foreach (int number in numbers)
+        {
+            Console.WriteLine(number);
+        }
+    }//Показва основния начин за използване на foreach цикъл в метод за обхождане и отпечатване на елементи от списък.
+}//Резултатът е : 1
+                  2 
+                  3
+                  4
+                  5
+============================================================================================
+Цикълът foreach в C# се използва за обхождане на елементите на колекция (като масив, списък и т.н.) и извършване на някаква 
+операция върху всеки елемент. Ето няколко прости примера за използването на foreach цикъл в различни контексти:
+
+Пример 1: Обхождане на масив от числа
+csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int[] numbers = { 1, 2, 3, 4, 5 };
+
+        foreach (int number in numbers)
+        {
+            Console.WriteLine(number);
+        }
+    }
+}
+Пример 2: Обхождане на списък от низове
+csharp
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        List<string> names = new List<string> { "Alice", "Bob", "Charlie" };
+
+        foreach (string name in names)
+        {
+            Console.WriteLine(name);
+        }
+    }
+}
+Пример 3: Обхождане на речник
+csharp
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        Dictionary<string, int> ages = new Dictionary<string, int>
+        {
+            { "Alice", 30 },
+            { "Bob", 25 },
+            { "Charlie", 35 }
+        };
+
+        foreach (KeyValuePair<string, int> kvp in ages)
+        {
+            Console.WriteLine($"{kvp.Key}: {kvp.Value}");
+        }
+    }
+}
+Обяснение:
+Пример 1: Обхожда масив от цели числа и отпечатва всяко число.
+Пример 2: Обхожда списък от низове и отпечатва всяко име.
+Пример 3: Обхожда речник и отпечатва ключовете и стойностите.
+Цикълът foreach е удобен за обхождане на колекции, защото автоматично обработва индексите и улеснява работата с елементите.
+
