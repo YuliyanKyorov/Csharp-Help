@@ -1,0 +1,14 @@
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\bin\Debug\net8.0\Funny-Project.exe
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\bin\Debug\net8.0\Funny-Project.deps.json
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\bin\Debug\net8.0\Funny-Project.runtimeconfig.json
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\bin\Debug\net8.0\Funny-Project.dll
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\bin\Debug\net8.0\Funny-Project.pdb
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\obj\Debug\net8.0\Funny-Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\obj\Debug\net8.0\Funny-Project.AssemblyInfoInputs.cache
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\obj\Debug\net8.0\Funny-Project.AssemblyInfo.cs
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\obj\Debug\net8.0\Funny-Project.csproj.CoreCompileInputs.cache
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\obj\Debug\net8.0\Funny-Project.dll
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\obj\Debug\net8.0\refint\Funny-Project.dll
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\obj\Debug\net8.0\Funny-Project.pdb
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\obj\Debug\net8.0\Funny-Project.genruntimeconfig.cache
+C:\Users\YSK\source\repos\Funny-Project\Funny-Project\obj\Debug\net8.0\ref\Funny-Project.dll
