@@ -1,0 +1,2 @@
+# Funny-Project
+SoftUni RandomSentencesGeneratorByMe
